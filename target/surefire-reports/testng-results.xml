@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="netbanking" duration-ms="81634" started-at="2022-03-08T23:24:04 IST" finished-at="2022-03-08T23:25:26 IST">
+    <groups>
+    </groups>
+    <test name="bankingmanger Test1" duration-ms="81634" started-at="2022-03-08T23:24:04 IST" finished-at="2022-03-08T23:25:26 IST">
+      <class name="pom.netbanking.testcases.TC_LoginTest_001">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:pom.netbanking.testcases.TC_LoginTest_001@1e965684]" name="setup" is-config="true" duration-ms="68179" started-at="2022-03-08T23:24:04 IST" finished-at="2022-03-08T23:25:12 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="LoginTest()[pri:0, instance:pom.netbanking.testcases.TC_LoginTest_001@1e965684]" name="LoginTest" duration-ms="12302" started-at="2022-03-08T23:25:12 IST" finished-at="2022-03-08T23:25:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:pom.netbanking.testcases.TC_LoginTest_001@1e965684]" name="teardown" is-config="true" duration-ms="812" started-at="2022-03-08T23:25:25 IST" finished-at="2022-03-08T23:25:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- pom.netbanking.testcases.TC_LoginTest_001 -->
+    </test> <!-- bankingmanger Test1 -->
+  </suite> <!-- netbanking -->
+</testng-results>
